@@ -1,0 +1,3 @@
+Changelog - 13.0//
+
+- Unlocked HDR-10 support for Netflix
