@@ -1,0 +1,24 @@
+{
+	"error":false,
+	"filename":"PixelExperience_miatoll-13.0-20230219-2144-RELEASED-BY-CRUECY.zip",
+	"datetime":1676843040,
+	"size":1752465843,
+	"url":"https:\/\/www.dropbox.com\/s\/5geznqqjnxlrxih\/PixelExperience_miatoll-13.0-20230219-2144-RELEASED-BY-CRUECY.zip?dl=1",
+	"filehash":"b524ad779989ba0bef21f45c6882c71b",
+	"version":"thirteen",
+	"status":"Active",
+	"pexv":"",
+	"id":"78119c3a80e8f018a2083e740e035bb5245c123460eb41aa9750afa2bf4aad51",
+	"tg_username":"CRUECY",
+	"device_name":"Xiaomi SD720G Devices",
+	"device":"miatoll",
+	"xda_thread":"https:\/\/forum.xda-developers.com\/m\/cruecy.9792504\/",
+	"maintainers": [{
+		"main_maintainer":false,
+		"github_username":"userariii",
+		"name":"ARINDAM BHATTACHARJEE"
+	}],
+	"donate_url":"https:\/\/paypal.me\/ariii0129",
+	"news_url":"https:\/\/t.me\/SD720G_repo",
+	"forum_url":"https:\/\/forum.xda-developers.com\/m\/cruecy.9792504\/"
+}
