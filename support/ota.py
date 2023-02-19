@@ -24,25 +24,28 @@ print("Options: PixelExtended, PixelExperience")
 print("---------------------------------------")
 cos=input("\nEnter customOS name : ")
 
-print ("\nThese Inputs are For SourceForge Uploading, you will be asked password just after your sourceforge username")
-sf=input("\nEnter Your SourceForge Username : ")
+print("\nGENERATING...")
+print("Please wait")
+
+#print ("\nThese Inputs are For SourceForge Uploading, you will be asked password just after your sourceforge username")
+#sf=input("\nEnter Your SourceForge Username : ")
 
 # Sourceforge Uploading 
-os.system("scp out/target/product/%s/%s*.zip %s@frs.sourceforge.net://home/frs/project/android-ota/13/%s/"%(codename,cos,sf,codename))
+#os.system("scp out/target/product/%s/%s*.zip %s@frs.sourceforge.net://home/frs/project/android-ota/13/%s/"%(codename,cos,sf,codename))
 
 # OTA/TG
 os.system("bash OTA/support/ota.sh '%s' '%s' '%s' '%s' '%s' '%s' '%s'"%(codename,tgname,device,xda,ghun,name,cos))
 
 # Open json for formatting
-init = open("OTA/builds/%s.json"%(codename), "rt")
+init = open("OTA/pixelexperience/tiramisu/builds/%s.json"%(codename), "rt")
 #output file to write the result to
-fout = open("OTA/builds/%s_temp.json"%(codename), "wt")
+fout = open("OTA/pixelexperience/tiramisu/builds/%s_temp.json"%(codename), "wt")
 #for each line in the input file
 for line in init:
 	#read replace the string and write to output file
 	fout.write(line.replace('/', '\/'))
 #close input and output files
-os.system("rm -rf  OTA/builds/%s.json"% (codename))
-os.system("mv OTA/builds/%s_temp.json OTA/builds/%s.json"% (codename,codename))
+os.system("rm -rf  OTA/pixelexperience/tiramisu/builds/%s.json"% (codename))
+os.system("mv OTA/pixelexperience/tiramisu/builds/%s_temp.json OTA/pixelexperience/tiramisu/builds/%s.json"% (codename,codename))
 init.close()
 fout.close()
