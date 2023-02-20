@@ -1,0 +1,24 @@
+{
+	"error":false,
+	"filename":"PixelExperience_PL2-13.0-20230220-1902-COMMUNITY-edition.zip",
+	"datetime":1676919720,
+	"size":1343402297,
+	"url":"https:\/\/sourceforge.net\/projects\/android-ota\/files\/13\/PL2\/PixelExperience_PL2-13.0-20230220-1902-COMMUNITY-edition.zip\/download",
+	"filehash":"752e0c677b644610142a4c343d678f97",
+	"version":"thirteen",
+	"status":"Active",
+	"pexv":"",
+	"id":"edab13478b0ed2b4f56eb69258e2e3c3043049c071856516fff43e2617b9157b",
+	"tg_username":"CRUECY",
+	"device_name":"HMD Global Nokia 6.1",
+	"device":"PL2",
+	"xda_thread":"https:\/\/forum.xda-developers.com\/m\/cruecy.9792504\/",
+	"maintainers": [{
+		"main_maintainer":false,
+		"github_username":"userariii",
+		"name":"ARINDAM BHATTACHARJEE"
+	}],
+	"donate_url":"https:\/\/paypal.me\/ariii0129",
+	"news_url":"https:\/\/t.me\/NE1community",
+	"forum_url":"https:\/\/forum.xda-developers.com\/m\/cruecy.9792504\/"
+}
