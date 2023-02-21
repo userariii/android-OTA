@@ -1,14 +1,14 @@
 {
 	"error":false,
-	"filename":"PixelExperience_PL2-13.0-20230220-1902-COMMUNITY-edition.zip",
-	"datetime":1676919720,
-	"size":1343402297,
-	"url":"https:\/\/sourceforge.net\/projects\/android-ota\/files\/13\/PL2\/PixelExperience_PL2-13.0-20230220-1902-COMMUNITY-edition.zip\/download",
-	"filehash":"752e0c677b644610142a4c343d678f97",
+	"filename":"PixelExperience_PL2-13.0-20230221-1002-COMMUNITY-edition.zip",
+	"datetime":1676973720,
+	"size":1352087759,
+	"url":"https://doc-00-08-docs.googleusercontent.com/docs/securesc/pflmrs2bavp0apgi8uh6e4e38jam48mb/p51fbq7fqpcicthr2f756s3ocd0hsbaf/1676976600000/12805348125929161405/12805348125929161405/1PXpDEE8a1K3JW5eFoqKItoCA1JP2xAb0?e=download&ax=AB85Z1BPYp98z5X0lRCRjaAJB76r3bPCyStkqbrRInbfPYtSUV8Kx_0YFf9wcsyRQrOEEetND0MVEIAlh-tQcVLPnUT9g-eeqw0F62I-7KTMOsrA9wnaKpl8j48R3hDXL3_myd5h5NtfEos448cQ8B_x6LcBYWsJ_0WIeWK-CNXzyj8aEzkaXQVkC4emanlncoiaAcnDpMj8t8Sxe4JgKj1iWGX3SUmycDIsmg_jalqmf12zAnXGDS_mF-pqc4JlQeIuWtHtiGz1GwYR8Hl-c8D0H8DEG5OIzJpvuvQsgOqcut7vUQw2CFDvF6_uKRySwqetKeRXrBzeiNP18pBSa_w-DR8hgVEe2XCAw32J5hSDtlA4gmNi3jTObDXDNomOekkTC4SXex3-fHy8pYQX6t0du_Qgekjc3S2AFQkilC-0Yo1jS6ZnlAHBs0aN0reQJox1y33Sv_9NE9CDBnTuxS3KlRxgjpKZ8GRfH0KZaIX3UbZcQnpxwwUfk71TYEFLKnwwOGPLvV-0RgwVEOGIfG8dIEYRoQ2aJpjhbunrKhcdDXfKuLKbnjOIf_pEzM6j75rUIy6joOODQQAM4QkBmNiROSejrEvfZXg5BKuLqmSGf86EbQISTv3_tZ8bivWLcsQHAF8HIjVJJYg1ShNBg2ZH3EsfGgVWp6o4uj1-pW2Kai-TQGChHOzbwS4nxyZbH-AWvBlIDRPwQX12uFeqWBb6VivGUC60wahPH4du7Rn1FdHFnpF_pSa7ki-uB0Lf-lzc7BhkXD9_v4J1SNZo_sXS_-TINcWSt8_b8UaD1q4ekL6glOf33aeeiGj2SwFctGHThCNMbwzCpdR8lmQmREt2azpmDTYhGqkXSth8lguwXsOTXqFiKm8yC1DpO8W9SWpD0BGTIOpv0PeeF44E3UrI8lxjiB-L90DXuwl1ZXXom4loR2CDgol4zKeFbfxWcsyNc1EnyEWiGA&uuid=f0f8ffe3-f1a9-43db-a71c-26add6be0a8e&authuser=2&nonce=m19632298qaf8&user=12805348125929161405&hash=68cdqrt2p8g1ootcpvr204b0dag2s7ie",
+	"filehash":"4725860802c52c29a459bd2b598de30f",
 	"version":"thirteen",
 	"status":"Active",
 	"pexv":"",
-	"id":"edab13478b0ed2b4f56eb69258e2e3c3043049c071856516fff43e2617b9157b",
+	"id":"95ee799ffc21cb124f3c3b9f8d04f637ecee9e4ede6e1a0737303d2f54cbc2eb",
 	"tg_username":"CRUECY",
 	"device_name":"HMD Global Nokia 6.1",
 	"device":"PL2",
@@ -19,6 +19,7 @@
 		"name":"ARINDAM BHATTACHARJEE"
 	}],
 	"donate_url":"https:\/\/paypal.me\/ariii0129",
-	"news_url":"https:\/\/t.me\/NE1community",
+	"website_url":"https:\/\/userariii.github.io\/",
+	"news_url":"https:\/\/t.me\/SD720G_repo",
 	"forum_url":"https:\/\/forum.xda-developers.com\/m\/cruecy.9792504\/"
 }
