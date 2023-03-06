@@ -1,14 +1,14 @@
 {
 	"error":false,
-	"filename":"PixelExperience_nabu-13.0-20230305-1348-COMMUNITY-edition.zip",
-	"datetime":1678024080,
-	"size":1615181299,
-	"url":"https://gitlab.com/userariii/OTA-builds/-/raw/master/pixelexperience/tiramisu/nabu/PixelExperience_nabu-13.0-20230305-1348-COMMUNITY-edition.zip",
-	"filehash":"078e1dfbcfa07dc1f14b62d2bfc8a99c",
+	"filename":"PixelExperience_nabu-13.0-20230306-1316-COMMUNITY-edition.zip",
+	"datetime":1678108560,
+	"size":1737164242,
+	"url":"https://gitlab.com/userariii/OTA-builds/-/raw/master/pixelexperience/tiramisu/nabu/PixelExperience_nabu-13.0-20230306-1316-COMMUNITY-edition.zip",
+	"filehash":"e80aa94f03638f5c937790e3a6c32c38",
 	"version":"thirteen",
 	"status":"Active",
 	"pexv":"",
-	"id":"761c52c473a2f5edc3dd4603529f91eafbe07f2f978b7d240c6524d634004691",
+	"id":"48bd839a7e086a33ce9bfef115bd466e3afd2e494c2a40682b3438dd92910468",
 	"tg_username":"CRUECY",
 	"device_name":"Xiaomi Pad 5",
 	"device":"nabu",
@@ -19,6 +19,5 @@
 		"name":"ARINDAM BHATTACHARJEE"
 	}],
 	"donate_url":"https:\/\/paypal.me\/ariii0129",
-	"news_url":"https:\/\/t.me\/SD720G_repo",
 	"forum_url":"https:\/\/forum.xda-developers.com\/m\/cruecy.9792504\/"
 }
