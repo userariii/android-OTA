@@ -1,16 +1,16 @@
 {
 	"error":false,
-	"filename":"PixelExperience_miatoll-13.0-20230219-2144-RELEASED-BY-CRUECY.zip",
-	"datetime":1676843040,
-	"size":1752465843,
-	"url":"https:\/\/www.dropbox.com\/s\/5geznqqjnxlrxih\/PixelExperience_miatoll-13.0-20230219-2144-RELEASED-BY-CRUECY.zip?dl=1",
-	"filehash":"b524ad779989ba0bef21f45c6882c71b",
-	"version":"thirteen",
+	"filename":"PixelExperience_Plus_miatoll-13.0-20230313-1443-COMMUNITY-edition.zip",
+	"datetime":1678718580,
+	"size":1800843649,
+	"url":"https:\/\/gitlab.com\/userariii\/OTA-builds\/-\/raw\/master\/pixelexperience\/tiramisu\/miatoll\/PixelExperience_Plus_miatoll-13.0-20230313-1443-COMMUNITY-edition.zip",
+	"filehash":"c464d515dfba124f16ffc89617b3487b",
+	"version":"thirteen_plus",
 	"status":"Active",
 	"pexv":"",
-	"id":"78119c3a80e8f018a2083e740e035bb5245c123460eb41aa9750afa2bf4aad51",
+	"id":"80dbabd3c01d2f7b3d70a955a32c6b2e1610faf5346c816bfea10d59c24355db",
 	"tg_username":"CRUECY",
-	"device_name":"Xiaomi SD720G Devices",
+	"device_name":"Xiaomi Poco M2 Pro",
 	"device":"miatoll",
 	"xda_thread":"https:\/\/forum.xda-developers.com\/m\/cruecy.9792504\/",
 	"maintainers": [{
@@ -19,6 +19,7 @@
 		"name":"ARINDAM BHATTACHARJEE"
 	}],
 	"donate_url":"https:\/\/paypal.me\/ariii0129",
+	"website_url":"",
 	"news_url":"https:\/\/t.me\/SD720G_repo",
 	"forum_url":"https:\/\/forum.xda-developers.com\/m\/cruecy.9792504\/"
 }
