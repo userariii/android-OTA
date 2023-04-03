@@ -1,14 +1,13 @@
 {
 	"error":false,
-	"filename":"PixelExperience_Plus_miatoll-13.0-20230316-0014-COMMUNITY-edition.zip",
-	"datetime":1678925640,
-	"size":1801579105,
-	"url":"https:\/\/gitlab.com\/userariii\/OTA-builds\/-\/raw\/master\/pixelexperience\/tiramisu\/miatoll\/PixelExperience_Plus_miatoll-13.0-20230316-0014-COMMUNITY-edition.zip",
-	"filehash":"f667c319c760d4e9d7c7c764adafa802",
+	"filename":"PixelExperience_Plus_miatoll-13.0-20230403-0723-COMMUNITY-edition.zip",
+	"datetime":1680506580,
+	"size":1865107619,
+	"url":"https:\/\/gitlab.com\/userariii\/OTA-builds\/-\/raw\/master\/pixelexperience\/tiramisu\/miatoll\/PixelExperience_Plus_miatoll-13.0-20230403-0723-COMMUNITY-edition.zip",
+	"filehash":"2dc56a2de60cd6062a8aa18e2ea8e65e",
 	"version":"thirteen_plus",
 	"status":"Active",
-	"pexv":"",
-	"id":"990247dab6043235799b766d5bd1bb18455b66709ecab54c90c5ce87e0013e21",
+	"id":"0e2e02922e68470678f9a198a76c8b3b7516f5f31879c7d069cb379b9903c291",
 	"tg_username":"CRUECY",
 	"device_name":"Xiaomi SD720G Devices",
 	"device":"miatoll",
@@ -19,7 +18,6 @@
 		"name":"ARINDAM BHATTACHARJEE"
 	}],
 	"donate_url":"https:\/\/paypal.me\/ariii0129",
-	"website_url":"",
 	"news_url":"https:\/\/t.me\/SD720G_repo",
 	"forum_url":"https:\/\/forum.xda-developers.com\/m\/cruecy.9792504\/"
 }
