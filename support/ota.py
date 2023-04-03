@@ -13,16 +13,28 @@ print ("JSON file for OTA (Over The Air) update generator")
 
 
 # Variables
-tgname=input("\nEnter Your telegram username [Without '@'] : ")
+# tgname=input("\nEnter Your telegram username [Without '@'] : ")
+# codename=input("\nEnter your device code name :- eg miatoll/laurel_sprout : ")
+# device=input("\nEnter your device full name :- eg Poco M2 Pro : ")
+# xda=input("\nEnter Your device's XDA post link : ")
+# ghun=input("\nEnter Your Github username : ")
+# name=input("\nEnter Your Name : ")
+# print("\n---------------------------------------")
+# print("Options: PixelExtended, PixelExperience")
+# print("---------------------------------------")
+# cos=input("\nEnter customOS name : ")
+
+tgname="CRUECY"
 codename=input("\nEnter your device code name :- eg miatoll/laurel_sprout : ")
 device=input("\nEnter your device full name :- eg Poco M2 Pro : ")
-xda=input("\nEnter Your device's XDA post link : ")
-ghun=input("\nEnter Your Github username : ")
-name=input("\nEnter Your Name : ")
+xda="https://forum.xda-developers.com/m/cruecy.9792504/"
+ghun="userariii"
+name="ARINDAM BHATTACHARJEE"
 print("\n---------------------------------------")
-print("Options: PixelExtended, PixelExperience")
+print("Options: PixelExperience")
 print("---------------------------------------")
 cos=input("\nEnter customOS name : ")
+scos=cos.lower()
 
 print("\nGENERATING...")
 print("Please wait")
@@ -34,7 +46,7 @@ print("Please wait")
 #os.system("scp out/target/product/%s/%s*.zip %s@frs.sourceforge.net://home/frs/project/android-ota/13/%s/"%(codename,cos,sf,codename))
 
 # OTA/TG
-os.system("bash OTA/support/ota.sh '%s' '%s' '%s' '%s' '%s' '%s' '%s'"%(codename,tgname,device,xda,ghun,name,cos))
+os.system("bash OTA/support/ota.sh '%s' '%s' '%s' '%s' '%s' '%s' '%s' %s"%(codename,tgname,device,xda,ghun,name,cos,scos))
 
 # Open json for formatting
 init = open("OTA/pixelexperience/tiramisu/builds/%s.json"%(codename), "rt")
