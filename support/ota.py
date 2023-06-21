@@ -31,7 +31,7 @@ xda="https://forum.xda-developers.com/m/cruecy.9792504/"
 ghun="userariii"
 name="ARINDAM BHATTACHARJEE"
 print("\n---------------------------------------")
-print("Options: PixelExperience")
+print("Options: PixelExperience, Evolution-X")
 print("---------------------------------------")
 cos=input("\nEnter customOS name : ")
 scos=cos.lower()
@@ -46,18 +46,18 @@ print("Please wait")
 #os.system("scp out/target/product/%s/%s*.zip %s@frs.sourceforge.net://home/frs/project/android-ota/13/%s/"%(codename,cos,sf,codename))
 
 # OTA/TG
-os.system("bash OTA/support/ota.sh '%s' '%s' '%s' '%s' '%s' '%s' '%s' %s"%(codename,tgname,device,xda,ghun,name,cos,scos))
+os.system("bash OTA/support/ota.sh '%s' '%s' '%s' '%s' '%s' '%s' '%s' '%s'"%(codename,tgname,device,xda,ghun,name,cos,scos))
 
 # Open json for formatting
-init = open("OTA/pixelexperience/tiramisu/builds/%s.json"%(codename), "rt")
+init = open("OTA/%s/tiramisu/builds/%s.json"%(scos,codename), "rt")
 #output file to write the result to
-fout = open("OTA/pixelexperience/tiramisu/builds/%s_temp.json"%(codename), "wt")
+fout = open("OTA/%s/tiramisu/builds/%s_temp.json"%(scos,codename), "wt")
 #for each line in the input file
 for line in init:
 	#read replace the string and write to output file
 	fout.write(line.replace('/', '\/'))
 #close input and output files
-os.system("rm -rf  OTA/pixelexperience/tiramisu/builds/%s.json"% (codename))
-os.system("mv OTA/pixelexperience/tiramisu/builds/%s_temp.json OTA/pixelexperience/tiramisu/builds/%s.json"% (codename,codename))
+os.system("rm -rf  OTA/%s/tiramisu/builds/%s.json"% (scos,codename))
+os.system("mv OTA/%s/tiramisu/builds/%s_temp.json OTA/%s/tiramisu/builds/%s.json"% (scos,codename,scos,codename))
 init.close()
 fout.close()
