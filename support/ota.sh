@@ -38,12 +38,11 @@ BUILD_MONTH=${BUILD_DATE:4:2}
 BUILD_DAY=${BUILD_DATE:6:2}
 CHANGELOG=$(echo "Changelog - $BUILD_YEAR/$BUILD_MONTH/$BUILD_DAY\n")
 
-if [ -d "OTA/$SMALL_CUSTOMROM/tiramisu/changelogs/$DEVICE" ]
-then
-printf "$CHANGELOG" > OTA/$SMALL_CUSTOMROM/tiramisu/changelogs/$DEVICE/$FILENAME.txt
-echo OTA/$SMALL_CUSTOMROM/tiramisu/changelogs/$DEVICE/$FILENAME.txt file created "(make sure to update the changelog file)"
+if [ -d "OTA/$SMALL_CUSTOMROM/tiramisu/changelogs/$DEVICE" ]; then
+  printf "$CHANGELOG" > "OTA/$SMALL_CUSTOMROM/tiramisu/changelogs/$DEVICE/$FILENAME"
+  echo "OTA/$SMALL_CUSTOMROM/tiramisu/changelogs/$DEVICE/$FILENAME created (make sure to update the changelog file)"
 else
-mkdir -p OTA/$SMALL_CUSTOMROM/tiramisu/changelogs/$DEVICE
-printf "$CHANGELOG" > OTA/changelogs/$DEVICE/$FILENAME.txt
-echo OTA/changelogs/$DEVICE/$FILENAME.txt file created "(make sure to update the changelog file)"
+  mkdir -p "OTA/$SMALL_CUSTOMROM/tiramisu/changelogs/$DEVICE"
+  printf "$CHANGELOG" > "OTA/$SMALL_CUSTOMROM/tiramisu/changelogs/$DEVICE/$FILENAME"
+  echo "OTA/$SMALL_CUSTOMROM/tiramisu/changelogs/$DEVICE/$FILENAME created (make sure to update the changelog file)"
 fi
