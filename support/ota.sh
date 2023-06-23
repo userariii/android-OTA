@@ -7,8 +7,17 @@ NAME=$6
 CUSTOMROM=$7
 SMALL_CUSTOMROM=$8
 
-DATETIME=$(grep "org.$SMALL_CUSTOMROM.build_date_utc=" out/target/product/$DEVICE/system/build.prop | cut -d "=" -f 2)
 FILENAME=$(find out/target/product/$DEVICE/$CUSTOMROM*.zip | cut -d "/" -f 5)
+if [ "$SMALL_CUSTOMROM" == "evolution" ]; then
+  # Specify the JSON file path
+  json_file="out/target/product/$DEVICE/$FILENAME.json"
+
+  # Extract the value of the "datetime" field from JSON file
+  DATETIME=$(grep -oP '(?<="datetime": )\d+' "$json_file")
+else
+  # Extract the value of the datetime field from build.prop using grep and cut
+  DATETIME=$(grep "org.$SMALL_CUSTOMROM.build_date_utc=" out/target/product/$DEVICE/system/build.prop | cut -d "=" -f 2)
+fi
 ID=$(sha256sum out/target/product/$DEVICE/$CUSTOMROM*.zip | cut -d " " -f 1)
 FILEHASH=$(md5sum out/target/product/$DEVICE/$CUSTOMROM*.zip | cut -d " " -f 1)
 SIZE=$(wc -c out/target/product/$DEVICE/$CUSTOMROM*.zip | awk '{print $1}')
