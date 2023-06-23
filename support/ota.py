@@ -25,8 +25,8 @@ print ("JSON file for OTA (Over The Air) update generator")
 # cos=input("\nEnter customOS name : ")
 
 tgname="CRUECY"
-codename=input("\nEnter your device code name :- eg miatoll/laurel_sprout : ")
-device=input("\nEnter your device full name :- eg Poco M2 Pro : ")
+codename=input("\nEnter your device code name: ")
+device=input("\nEnter your device full name: ")
 xda="https://forum.xda-developers.com/m/cruecy.9792504/"
 ghun="userariii"
 name="ARINDAM BHATTACHARJEE"
@@ -36,8 +36,7 @@ print("---------------------------------------")
 cos=input("\nEnter customOS name : ")
 scos=cos.lower()
 
-print("\nGENERATING...")
-print("Please wait")
+print("\nGENERATING, Please wait...")
 
 #print ("\nThese Inputs are For SourceForge Uploading, you will be asked password just after your sourceforge username")
 #sf=input("\nEnter Your SourceForge Username : ")
@@ -55,7 +54,7 @@ fout = open("OTA/%s/tiramisu/builds/%s_temp.json"%(scos,codename), "wt")
 #for each line in the input file
 for line in init:
 	#read replace the string and write to output file
-	fout.write(line.replace('/', '\/'))
+	fout.write(line.replace('/', '/'))
 #close input and output files
 os.system("rm -rf  OTA/%s/tiramisu/builds/%s.json"% (scos,codename))
 os.system("mv OTA/%s/tiramisu/builds/%s_temp.json OTA/%s/tiramisu/builds/%s.json"% (scos,codename,scos,codename))
