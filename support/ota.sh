@@ -29,8 +29,18 @@ DONATE_URL="https://paypal.me/ariii0129"
 NEWS_URL="https://t.me/SD720G_repo"
 JSON_FMT='{\n\t"error":false,\n\t"filename":"%s",\n\t"datetime":%s,\n\t"size":%s,\n\t"url":"%s",\n\t"filehash":"%s",\n\t"version":"%s",\n\t"status":"%s",\n\t"id":"%s",\n\t"tg_username":"%s",\n\t"device_name":"%s",\n\t"device":"%s",\n\t"xda_thread":"%s",\n\t"maintainers": [{\n\t\t"main_maintainer":false,\n\t\t"github_username":"%s",\n\t\t"name":"%s"\n\t}],\n\t"donate_url":"%s",\n\t"website_url":"%s",\n\t"news_url":"%s",\n\t"forum_url":"%s"\n}'
 
-printf "$JSON_FMT" "$FILENAME" "$DATETIME" "$SIZE" "$URL" "$FILEHASH" "$VERSION" "$STATUS" "$ID" "$TG_USERNAME" "$DEVICE_NAME" "$DEVICE" "$XDA_THREAD" "$GHUN" "$NAME" "$DONATE_URL" "$WEBSITE_URL" "$NEWS_URL" "$XDA_THREAD" > OTA/$SMALL_CUSTOMROM/tiramisu/builds/$DEVICE.json
-echo OTA/$SMALL_CUSTOMROM/tiramisu/builds/$DEVICE.json file created
+DEVICE_JSON="OTA/$SMALL_CUSTOMROM/tiramisu/builds/$DEVICE.json"
+
+if [ -f "$DEVICE_JSON" ]; then
+  # Update the values in the existing file
+  printf "$JSON_FMT" "$FILENAME" "$DATETIME" "$SIZE" "$URL" "$FILEHASH" "$VERSION" "$STATUS" "$ID" "$TG_USERNAME" "$DEVICE_NAME" "$DEVICE" "$XDA_THREAD" "$GHUN" "$NAME" "$DONATE_URL" "$WEBSITE_URL" "$NEWS_URL" "$XDA_THREAD" > "$DEVICE_JSON"
+  echo "$DEVICE_JSON file updated"
+else
+  # Create a new file with the updated values
+  touch $DEVICE_JSON
+  printf "$JSON_FMT" "$FILENAME" "$DATETIME" "$SIZE" "$URL" "$FILEHASH" "$VERSION" "$STATUS" "$ID" "$TG_USERNAME" "$DEVICE_NAME" "$DEVICE" "$XDA_THREAD" "$GHUN" "$NAME" "$DONATE_URL" "$WEBSITE_URL" "$NEWS_URL" "$XDA_THREAD" > "$DEVICE_JSON"
+  echo "$DEVICE_JSON file created"
+fi
 
 BUILD_DATE=$(echo $FILENAME | cut -d "-" -f 3)
 BUILD_YEAR=${BUILD_DATE:0:4}
