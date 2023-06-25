@@ -1,0 +1,24 @@
+{
+	"error":false,
+	"filename":"evolution_PL2-ota-tq3a.230605.012-06251007-community-unsigned.zip",
+	"datetime":1687687458,
+	"size":1406021019,
+	"url":"https://storage.googleapis.com/evoota/evolution_PL2-ota-tq3a.230605.012-06251007-community-unsigned.zip",
+	"filehash":"3826c606ff595acaee00801be8f091b3",
+	"version":"",
+	"status":"Active",
+	"id":"b0ac7849faf3a1d25a0fcbe30d63ef027002c36271f94329d24256697432717e",
+	"tg_username":"CRUECY",
+	"device_name":"HMD Global Nokia 6.1",
+	"device":"PL2",
+	"xda_thread":"https://forum.xda-developers.com/m/cruecy.9792504/",
+	"maintainers": [{
+		"main_maintainer":false,
+		"github_username":"userariii",
+		"name":"ARINDAM BHATTACHARJEE"
+	}],
+	"donate_url":"https://paypal.me/ariii0129",
+	"website_url":"",
+	"news_url":"https://t.me/SD720G_repo",
+	"forum_url":"https://forum.xda-developers.com/m/cruecy.9792504/"
+}

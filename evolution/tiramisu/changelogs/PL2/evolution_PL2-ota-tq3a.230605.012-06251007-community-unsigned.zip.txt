@@ -1,0 +1,16 @@
+Changelog - tq3a/.2/30
+
+- Initial Release
+- Dolby Atmos Equalizer
+- Dolby Codecs are supported (eg- Apple Music)
+- Spatial Audio
+- Increase Wi-Fi 5GHz signal network tollerance
+- Inherit AndroidGo components
+- Add speed profile services
+- Import some missing Wi-Fi packages
+- Speed up animation
+- define display density to 440dp
+- Enable ZRAM writeback
+- Reduce ZRAM size to 25%
+- Show maintainer name in OTA application
+- Removed AC4 codec (crashing it was)
