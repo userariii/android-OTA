@@ -25,6 +25,7 @@ print ("JSON file for OTA (Over The Air) update generator")
 # cos=input("\nEnter customOS name : ")
 
 tgname="CRUECY"
+sfname=tgname.lower()
 codename=input("\nEnter your device code name: ")
 device=input("\nEnter your device full name: ")
 xda="https://forum.xda-developers.com/m/cruecy.9792504/"
@@ -42,7 +43,7 @@ print("\nGENERATING, Please wait...")
 #sf=input("\nEnter Your SourceForge Username : ")
 
 # Sourceforge Uploading 
-#os.system("scp out/target/product/%s/%s*.zip %s@frs.sourceforge.net://home/frs/project/android-ota/13/%s/"%(codename,cos,sf,codename))
+os.system("scp out/target/product/%s/%s*.zip %s@frs.sourceforge.net://home/frs/project/android-ota/13/%s/"%(codename,cos,sfname,codename))
 
 # OTA/TG
 os.system("bash OTA/support/ota.sh '%s' '%s' '%s' '%s' '%s' '%s' '%s' '%s'"%(codename,tgname,device,xda,ghun,name,cos,scos))
