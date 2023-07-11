@@ -1,0 +1,7 @@
+Changelog - tq3a/.2/30
+
+- QPR3 Update
+- Google Security Patch - July 2023
+- Fix Google Camera crashing before
+- Shift with GoogleCamera-7.2 [STABLE]
+- Shift with DocumentUi File Manager by Google
