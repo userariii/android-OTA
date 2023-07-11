@@ -21,8 +21,8 @@ fi
 ID=$(sha256sum out/target/product/$DEVICE/$CUSTOMROM*.zip | cut -d " " -f 1)
 FILEHASH=$(md5sum out/target/product/$DEVICE/$CUSTOMROM*.zip | cut -d " " -f 1)
 SIZE=$(wc -c out/target/product/$DEVICE/$CUSTOMROM*.zip | awk '{print $1}')
-# URL="https://sourceforge.net/projects/android-ota/files/13/$DEVICE/$FILENAME/download"
-URL="https://gitlab.com/userariii/OTA-builds/-/raw/master/$SMALL_CUSTOMROM/tiramisu/$DEVICE/$FILENAME"
+URL="https://sourceforge.net/projects/android-ota/files/13/$DEVICE/$FILENAME/download"
+#URL="https://gitlab.com/userariii/OTA-builds/-/raw/master/$SMALL_CUSTOMROM/tiramisu/$DEVICE/$FILENAME"
 VERSION=$(grep "org.$SMALL_CUSTOMROM.version=" out/target/product/$DEVICE/system/build.prop | cut -d "=" -f 2)
 STATUS="Active"
 DONATE_URL="https://paypal.me/ariii0129"
