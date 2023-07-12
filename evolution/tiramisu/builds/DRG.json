@@ -1,0 +1,24 @@
+{
+	"error":false,
+	"filename":"evolution_DRG-ota-tq3a.230705.001.b4-07120600-community-unsigned.zip",
+	"datetime":1689141479,
+	"size":1400506999,
+	"url":"https://sourceforge.net/projects/android-ota/files/13/DRG/evolution_DRG-ota-tq3a.230705.001.b4-07120600-community-unsigned.zip/download",
+	"filehash":"b8b4f60c6aa5b184479332e75bfd0cec",
+	"version":"",
+	"status":"Active",
+	"id":"8c52c168bc264420c2cdc7d9668f22f85c45173a6255c06ae7afbfcd39ab6613",
+	"tg_username":"CRUECY",
+	"device_name":"HMD Global Nokia 6.1 Plus",
+	"device":"DRG",
+	"xda_thread":"https://forum.xda-developers.com/m/cruecy.9792504/",
+	"maintainers": [{
+		"main_maintainer":false,
+		"github_username":"userariii",
+		"name":"ARINDAM BHATTACHARJEE"
+	}],
+	"donate_url":"https://paypal.me/ariii0129",
+	"website_url":"",
+	"news_url":"https://t.me/SD720G_repo",
+	"forum_url":"https://forum.xda-developers.com/m/cruecy.9792504/"
+}

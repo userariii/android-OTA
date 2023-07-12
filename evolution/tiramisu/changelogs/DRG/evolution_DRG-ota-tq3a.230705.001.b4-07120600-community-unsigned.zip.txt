@@ -1,0 +1,17 @@
+Changelog - tq3a/.2/30
+
+- Initial build
+- Fix GoogleCamera crashing
+- Shift with GoogleCamera 7.2 [STABLE]
+- Experience the immersive sound with Dolby Atmos
+- Dolby codecs included - [eac3, eac3-joc, AC3]
+- Spatial Audio by Google + Head Tracking
+- Update Audio HAL & HIDL ver. to 7.x
+- Inherit several Android Go config
+- Speed up animation
+- Import speed profile services
+- Import WiFi concurrency
+- Enable ZRAM writeback
+- Reduce ZRAM size to 25%
+- Enable Carrier Aggregation [4G+/LTE+] support
+- Increase 5 GHz network signal tolerance
