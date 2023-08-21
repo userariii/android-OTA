@@ -1,24 +1,24 @@
 {
 	"error":false,
-	"filename":"PixelExperience_Plus_miatoll-13.0-20230421-1208-COMMUNITY-edition.zip",
-	"datetime":1682078880,
-	"size":1847639307,
-	"url":"https:\/\/gitlab.com\/userariii\/OTA-builds\/-\/raw\/master\/pixelexperience\/tiramisu\/miatoll\/PixelExperience_Plus_miatoll-13.0-20230421-1208-COMMUNITY-edition.zip",
-	"filehash":"5cafefd0313bbececcbb9bc25af0b429",
-	"version":"thirteen_plus",
+	"filename":"PixelExperience_miatoll-13.0-20230821-1236-COMMUNITY-edition.zip",
+	"datetime":1692621360,
+	"size":2004475424,
+	"url":"https://sourceforge.net/projects/android-ota/files/13/miatoll/PixelExperience_miatoll-13.0-20230821-1236-COMMUNITY-edition.zip/download",
+	"filehash":"de022a292eecf9dd73f6309ee6d2bfee",
+	"version":"thirteen",
 	"status":"Active",
-	"id":"5caec08f1c12a2bedf60217736e2fc98523b9b83de529ce1d58ce680c6db191a",
+	"id":"99e25c063790e64151e63b8a2e99fe9cf4cf65922293fa87ed5ec9eb2f957d8a",
 	"tg_username":"CRUECY",
-	"device_name":"Xiaomi SD720G Devices",
+	"device_name":"Xiaomi SD720G devices",
 	"device":"miatoll",
-	"xda_thread":"https:\/\/forum.xda-developers.com\/m\/cruecy.9792504\/",
+	"xda_thread":"https://forum.xda-developers.com/m/cruecy.9792504/",
 	"maintainers": [{
 		"main_maintainer":false,
 		"github_username":"userariii",
 		"name":"ARINDAM BHATTACHARJEE"
 	}],
-	"donate_url":"https:\/\/paypal.me\/ariii0129",
+	"donate_url":"https://paypal.me/ariii0129",
 	"website_url":"",
-	"news_url":"https:\/\/t.me\/SD720G_repo",
-	"forum_url":"https:\/\/forum.xda-developers.com\/m\/cruecy.9792504\/"
+	"news_url":"https://t.me/SD720G_repo",
+	"forum_url":"https://forum.xda-developers.com/m/cruecy.9792504/"
 }
