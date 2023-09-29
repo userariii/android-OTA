@@ -1,0 +1,19 @@
+Changelog - 2023/09/29
+
+- Pixel Experience Plus features
+- Introduced new VoLTE/VoWiFi icons
+- Explicitly disbled mobile data disbale indicator
+- Switch back to spoof BGMI as OnePlus8Pro
+- Added missing native audio formats
+- Add AUDIO_FORMAT_APTX_ADAPTIVE_{QLEA|R4}
+- Imported missing QTI-atoll audio effect blobs
+- Enable Spatial audio for speaker
+- Added statusbar NFC icons
+- Added OnePlus Haptic feedback support
+- Switch to PIxelLauncherExtended (Solved battery draining)
+- Merged tag android-13.0.0_r82 (Sept-2023 Security Patch)
+- Switch to RedCherry+ Kernel (v4.14.325)
+- KernelSU supported
+- Update Audio Kernel of LA.UM.9.1.r1-13900-SMxxx0.QSSI13.0
+- Update TreeWide of LA.UM.9.1.r1-13900-SMxxx0.QSSI13.0
+- Update Firmware API of LA.UM.9.1.r1-13900-SMxxx0.QSSI13.0
