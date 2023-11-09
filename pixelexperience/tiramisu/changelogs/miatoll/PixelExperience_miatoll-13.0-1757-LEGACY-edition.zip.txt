@@ -1,0 +1,5 @@
+Changelog - 2023/11/09
+
+- November-2023 Security Patch
+- Upstream RedCherry+ Kernel v4.14.328
+- Switched to FBEv2 encryption
