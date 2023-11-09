@@ -1,24 +1,24 @@
 {
 	"error":false,
-	"filename":"PixelExperience_PL2-13.0-20230223-1106-COMMUNITY-edition.zip",
-	"datetime":1677150360,
-	"size":1343396129,
-	"url":"https://gitlab.com/userariii/OTA-builds/-/raw/master/pixelexperience/tiramisu/PL2/PixelExperience_PL2-13.0-20230223-1106-COMMUNITY-edition.zip",
-	"filehash":"40ea50dbf4fce71e215dea8270c251c2",
-	"version":"thirteen",
+	"filename":"PixelExperience_PL2-13.0-1359-LEGACY-edition.zip",
+	"datetime":1699538340,
+	"size":1386126004,
+	"url":"https://github.com/userariii/android-OTA/releases/download/PL2-nov-23/PixelExperience_PL2-13.0-1359-LEGACY-edition.zip",
+	"filehash":"809d6739d0d066db31b9c11592be2271",
+	"version":"thirteen_plus",
 	"status":"Active",
-	"pexv":"",
-	"id":"ac2480b1df31e0c94efa1a2034fe07b93892f5f739d1dfa2be6e8355b49abc37",
+	"id":"835a463c4647bc35e97a0fc19ef651dc377bc08cd44dff5d2784877876e53bc0",
 	"tg_username":"CRUECY",
-	"device_name":"HMD Global Nokia 6.1",
+	"device_name":"Nokia 6.1",
 	"device":"PL2",
-	"xda_thread":"https:\/\/forum.xda-developers.com\/m\/cruecy.9792504\/",
+	"xda_thread":"https://forum.xda-developers.com/m/cruecy.9792504/",
 	"maintainers": [{
 		"main_maintainer":false,
 		"github_username":"userariii",
 		"name":"ARINDAM BHATTACHARJEE"
 	}],
-	"donate_url":"https:\/\/paypal.me\/ariii0129",
-	"news_url":"https:\/\/t.me\/NE1community",
-	"forum_url":"https:\/\/forum.xda-developers.com\/m\/cruecy.9792504\/"
+	"donate_url":"https://paypal.me/ariii0129",
+	"website_url":"",
+	"news_url":"https://t.me/SD720G_repo",
+	"forum_url":"https://forum.xda-developers.com/m/cruecy.9792504/"
 }
