@@ -1,0 +1,24 @@
+{
+	"error":false,
+	"filename":"PixelExperience_DRG-13.0-1804-LEGACY-edition.zip",
+	"datetime":1699898640,
+	"size":1433239560,
+	"url":"https://github.com/userariii/android-OTA/releases/download/DRG-nov-2023/PixelExperience_DRG-13.0-1804-LEGACY-edition.zip",
+	"filehash":"d9bf75cc0581b9e54d9e4acbf918be23",
+	"version":"thirteen_plus",
+	"status":"Active",
+	"id":"9b6dfb3a346432c203609bf78550aee2cb384689be978a6e82ec86b5ebf1f121",
+	"tg_username":"CRUECY",
+	"device_name":"HMD Global Nokia 6.1+",
+	"device":"DRG",
+	"xda_thread":"https://forum.xda-developers.com/m/cruecy.9792504/",
+	"maintainers": [{
+		"main_maintainer":false,
+		"github_username":"userariii",
+		"name":"ARINDAM BHATTACHARJEE"
+	}],
+	"donate_url":"https://paypal.me/ariii0129",
+	"website_url":"",
+	"news_url":"https://t.me/SD720G_repo",
+	"forum_url":"https://forum.xda-developers.com/m/cruecy.9792504/"
+}

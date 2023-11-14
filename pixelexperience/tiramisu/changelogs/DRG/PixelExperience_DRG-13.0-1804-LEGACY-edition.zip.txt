@@ -1,0 +1,13 @@
+Changelog - 2023/11/14
+
+November-2023 Security Patch
+Dolby Atmos support
+Dolby Codecs support [ac3, eac3, eac3-joc]
+Spatial Audio [Phone Speaker/HeadPhone]
+Powered by RedCherry+ 4.4.302 [KernelSU support]
+Introduced HD/VoWiFi icons
+Introduced GameProps [Unlocked High FPS]
+Add toggle to enable forcely LTE_CA [Carrier aggregation]
+Powered by RedCherry+ Kernel [Included KernelSU support]
+Removed Secure Window flag by-default
+Enable OTA support for future update
