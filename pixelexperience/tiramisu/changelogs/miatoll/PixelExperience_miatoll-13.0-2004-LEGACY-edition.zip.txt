@@ -1,0 +1,9 @@
+Changelog - 2023/11/17
+
+### HotFix Release ###
+- Fix Portrait mode for Mi Camera
+- Fix encryption related issue for FBEv2
+- Fix CTS/Play Integrity [PASS]
+- Upstreamed with KernelSU v0.7.1 tag
+- Upstreamed RedCherry+ Kernel v4.14.329
+- misc optimization
