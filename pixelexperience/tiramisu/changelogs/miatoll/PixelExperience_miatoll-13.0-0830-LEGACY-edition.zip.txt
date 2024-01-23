@@ -1,0 +1,14 @@
+Changelog - 23-01-2024
+
+- Android Security Patch 2024-01
+- Added Pure Black Theme
+- Move Device cutout options to Display settings
+- Added Dolby Vision support
+- Updated to Motorola Dolby Atmos with DaxUI tuner
+- Switch to OSS audio
+- fixup! Spatial audio for bluetooth headsets
+- fixup! fingerprint indicator sign to correct location
+- Switch to Pixel Power & Thermal HAL
+- Upstreamed Forza Kernel v4.14.336 [EOL]
+- Remove kernelSU support
+- miscellaneous fixes & optimization

@@ -1,0 +1,86 @@
+Changelog - 23-01-2024
+
+- Android Security Patch 2024-01
+- Added Pure Black Theme
+- Added Dolby Vision support
+- Updated to Motorola Dolby Atmos with DaxUI tuner
+- Switch to OSS audio
+- fixup! Spatial audio for bluetooth headsets
+- fixup! fingerprint indicator sign to correct location
+- Switch to Pixel Power & Thermal HAL
+- Upstreamed Forza Kernel v4.14.336 [EOL]
+- Remove kernelSU support
+- Pass Play integrity [Safetynet]
+- miscellaneous fixes & optimization
+
+Changelog - 2023/11/17
+
+### HotFix Release ###
+- Fix Portrait mode for Mi Camera
+- Fix encryption related issue for FBEv2
+- Fix CTS/Play Integrity [PASS]
+- Upstreamed with KernelSU v0.7.1 tag
+- Upstreamed RedCherry+ Kernel v4.14.329
+- misc optimization
+
+Changelog - 2023/11/09
+
+- November-2023 Security Patch
+- Upstream RedCherry+ Kernel v4.14.328
+- Switched to FBEv2 encryption
+
+Changelog - 2023/09/29
+
+- Pixel Experience Plus features
+- Introduced new VoLTE/VoWiFi icons
+- Explicitly disbled mobile data disbale indicator
+- Switch back to spoof BGMI as OnePlus8Pro
+- Added missing native audio formats
+- Add AUDIO_FORMAT_APTX_ADAPTIVE_{QLEA|R4}
+- Imported missing QTI-atoll audio effect blobs
+- Enable Spatial audio for speaker
+- Added statusbar NFC icons
+- Added OnePlus Haptic feedback support
+- Switch to PIxelLauncherExtended (Solved battery draining)
+- Merged tag android-13.0.0_r82 (Sept-2023 Security Patch)
+- Switch to RedCherry+ Kernel (v4.14.325)
+- KernelSU supported
+- Update Audio Kernel of LA.UM.9.1.r1-13900-SMxxx0.QSSI13.0
+- Update TreeWide of LA.UM.9.1.r1-13900-SMxxx0.QSSI13.0
+- Update Firmware API of LA.UM.9.1.r1-13900-SMxxx0.QSSI13.0
+
+Changelog - 2023/08/21
+
+- Introduced VoLTE/VoWiFi icons
+- Unlocked HDR-10 support for Netflix
+- Stock Miui Camera [Non modified edition]
+- Dolby Atmos
+- Dolby Codecs support [ac3, eac3, eac3-joc]
+- Spatial Audio support
+- Introduced GameProps [Unlocked High FPS]
+- Add toggle to enable forcely LTE_CA [Carrier aggregation]
+- Removed Secure Window flag by-default
+- Enable OTA support for future updates
+- Powered by Velvet Kernel-v4.14.190
+
+Changelog - 2023/04/21
+
+- Switch 4G icons over LTE
+- Signature type release-key
+- Updated v4.14.295-Forza Kernel
+
+Changelog - 2023/04/03
+
+- Add dynamic VoLTE/VoWiFi icons
+
+Changelog - 2023/03/16
+
+- Add PixelDroid
+- Add new ringtone
+- Update default Wallpaper
+- Update default ringtone & notification sound
+
+Changelog - 2023/03/13
+
+- TARGET_USES_AOSP_RECOVERY
+- Spoof Youtube & Youtube music to Pixel 7 Pro fingerprint
