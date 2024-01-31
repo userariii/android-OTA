@@ -1,3 +1,13 @@
+Changelog - 01-02-2024
+
+### HotFix Release ###
+- Fixup! DT2W
+- Fixup! the Google Camera crash
+- Fixup! the Vulkan green dots graphical bugs (effected Instagram, while watching the reels)
+- ViLTE might start working for some regions (depends upon supported carrier operator)
+- Added back Google Live wallpaper
+- Switch back to OP Dolby Atmos
+
 Changelog - 23-01-2024
 
 - Android Security Patch 2024-01
