@@ -1,3 +1,10 @@
+Changelog - 21/02/2024
+
+- Android Security Patch 2024-02
+- Added Bootloader spoofer
+- Updated Dolby tuner
+- Miscellaneous fixes
+
 Changelog - 01-02-2024
 
 ### HotFix Release ###
