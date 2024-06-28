@@ -1,0 +1,6 @@
+Changelog - 29/06/2024
+
+- Android Security Patch 2024-06
+- fixed DT2W
+- [Temporary] Switch to LineageOS Kernel
+- GMS are extracted from Pixel 7 (Cheetah-TQ3A.230705.001)
