@@ -1,0 +1,5 @@
+Changelog - 08/07/2024
+
+- Android Security Patch 2024-06
+- Shift with RDP (Retrofit Dynamic Partition)
+- Signed Build
