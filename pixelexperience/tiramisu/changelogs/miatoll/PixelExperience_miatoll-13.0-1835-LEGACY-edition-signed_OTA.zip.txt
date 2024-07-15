@@ -1,0 +1,6 @@
+Changelog - 15/07/2024
+
+- Android Security Patch 2024-07
+- Fix RCS chat services
+- Switch to AOSP WFD
+- Update some GMS applications from Nokia snt_sprout
