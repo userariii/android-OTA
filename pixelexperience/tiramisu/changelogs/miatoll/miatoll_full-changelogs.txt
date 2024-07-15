@@ -1,3 +1,9 @@
+Changelog - 15/07/2024
+
+- Android Security Patch 2024-07
+- Fix RCS chat services
+- Update some GMS applications from Nokia snt_sprout
+
 Changelog - 30/06/2024
 
 - Fix the spatial audio switches implementation issue where Google makes an error in SP: 2024-02
