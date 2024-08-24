@@ -1,0 +1,5 @@
+Changelog - 25/08/2024
+
+- Android Security Patch 2024-08
+- Fixed: Some banking app was detected as root issue
+- Added QuickTap feature again
