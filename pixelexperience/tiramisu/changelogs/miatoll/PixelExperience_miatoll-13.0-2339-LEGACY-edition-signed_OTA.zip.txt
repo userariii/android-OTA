@@ -1,0 +1,8 @@
+Changelog - 10/12/2024
+
+- Android Security Patch 2024-12
+- Adapted to OSS + Prebuilt audio combination
+- Fix soundtrigger aka "Hey Google"
+- Update Dolby dax frequencies from Sony pdx223
+- Fix Miui Camera documents mode
+- Misc optimization & fixes
