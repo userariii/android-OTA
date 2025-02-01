@@ -1,0 +1,8 @@
+Changelog - 02/02/2025
+
+- Android Security Patch 2025-01
+- Fix NFC
+- Fix ViLTE (carrier video calling)
+- Added KernelSU support
+- Imporved the performace
+- Switch to RedCherry+ kernel

@@ -1,8 +1,10 @@
-Changelog - 31/01/2025
+Changelog - 1212
 - Android Security Patch 2025-01
 - Fix NFC
 - Fix ViLTE (carrier video calling)
-- Switch to SnowFlake kernel
+- Added KernelSU-Next support
+- Imporve the performance
+- Switch to RedCherry+ kernel
 
 Changelog - 10/12/2024
 - Android Security Patch 2024-12

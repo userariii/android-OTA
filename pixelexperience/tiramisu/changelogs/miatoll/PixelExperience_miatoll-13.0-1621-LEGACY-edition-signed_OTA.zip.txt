@@ -1,6 +1,0 @@
-Changelog - 31/01/2025
-
-- Android Security Patch 2025-01
-- Fix NFC
-- Fix ViLTE (carrier video calling)
-- Switch to SnowFlake kernel
