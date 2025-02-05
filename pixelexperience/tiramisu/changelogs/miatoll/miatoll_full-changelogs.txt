@@ -1,6 +1,15 @@
+Changelog - 1909 (HotFix)
+- Fixup! NFC for joyeuse model [Tested]
+- Fixup! naming scheme for curtana_in1 models
+- Build NFC SecureElement package
+- KernelSU Next support included
+- Kernel optimization in terms of performance & BB
+- Removed some unused GMS packages
+
+Note: The update is the most stable release to date, and it is mandatory to upgrade to this version.
+
 Changelog - 1212
 - Android Security Patch 2025-01
-- Fix NFC
 - Fix ViLTE (carrier video calling)
 - Added KernelSU-Next support
 - Imporve the performance
