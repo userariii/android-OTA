@@ -1,3 +1,7 @@
+Changelogs - 0833
+- Android Security Patch 2025-02
+- Optimize the kernel in terms of latency, Battery Backup & memory management
+
 Changelog - 1909 (HotFix)
 - Fixup! NFC for joyeuse model [Tested]
 - Fixup! naming scheme for curtana_in1 models
