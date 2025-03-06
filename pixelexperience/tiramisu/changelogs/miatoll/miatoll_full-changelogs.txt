@@ -1,3 +1,9 @@
+Changelog - 1239
+- Android Security patch 2025-03
+- Switched to Dolby Codec2
+- Update BSNL Mobile carrier configuration
+- Misc optimization & fixes
+
 Changelogs - 0833
 - Android Security Patch 2025-02
 - Optimize the kernel in terms of latency, Battery Backup & memory management

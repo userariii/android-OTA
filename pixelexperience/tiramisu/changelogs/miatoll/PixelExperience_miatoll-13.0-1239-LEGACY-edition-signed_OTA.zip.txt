@@ -1,0 +1,6 @@
+Changelog - 1239
+
+- Android Security patch 2025-03
+- Switched to Dolby Codec2
+- Update BSNL Mobile carrier configuration
+- Misc optimization & fixes
