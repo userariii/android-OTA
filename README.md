@@ -8,5 +8,5 @@ git clone -b thirteen https://github.com/userariii/android-OTA OTA
 ```
 Run:
 ```bash
-
+bash ./OTA/generate_OTA.sh
 ```

@@ -1,0 +1,7 @@
+[miatoll]
+device="Xiaomi SD720G Devices"
+maintainer_name="Arindam Bhattacharjee"
+github_username="userariii"
+main_maintainer=true
+donate_url="https://paypal.me/ariii0129"
+forum_url="https://forum.xda-developers.com/m/cruecy.9792504/"
