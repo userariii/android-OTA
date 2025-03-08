@@ -4,9 +4,9 @@ Instructions
 
 Clone this repository with the following command...
 ```bash
-git clone -b thirteen-plus https://github.com/userariii/android-OTA OTA
+git clone -b thirteen https://github.com/userariii/android-OTA OTA
 ```
 Run:
 ```bash
-python3 OTA/support/ota.py
+
 ```
