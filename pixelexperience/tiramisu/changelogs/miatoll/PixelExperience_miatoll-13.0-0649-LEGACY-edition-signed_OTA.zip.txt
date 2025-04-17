@@ -1,0 +1,9 @@
+Changelogs - 0649
+
+- Android Security Patch 2025-04
+- Fixup! the Spatial audio crashing issue in BT earbuds/headphones, while toggling the switch on/off button
+- Spatial Audio: Enable virtualization effect (Make ordinary sound more immersive)
+- Spatial Audio: Enable binaural & transaural feature
+- Spatial Audio: optimize spatializer effect delay
+- Enable deep buffer by-default
+- Misc fixes & optimization

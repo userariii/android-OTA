@@ -1,24 +1,24 @@
 {
-	"error":false,
-	"filename":"PixelExperience_miatoll-13.0-1239-LEGACY-edition-signed_OTA.zip",
-	"datetime":1741264740,
-	"size":2054324848,
-	"url":"https://github.com/userariii/android-OTA/releases/download/miatoll-Mar-25/PixelExperience_miatoll-13.0-1239-LEGACY-edition-signed_OTA.zip",
-	"filehash":"fcf7d09b8375945ecb46288b956f48bb",
-	"version":"thirteen_plus",
-	"status":"Active",
-	"id":"797504ed7cadf91336f84ba5ca4176a428bb78fcc0796dca9db70d506f76b868",
-	"tg_username":"CRUECY",
-	"device_name":"Xiaomi SD720G Devices",
-	"device":"miatoll",
-	"xda_thread":"https://forum.xda-developers.com/m/cruecy.9792504/",
-	"maintainers": [{
-		"main_maintainer":false,
-		"github_username":"userariii",
-		"name":"ARINDAM BHATTACHARJEE"
-	}],
-	"donate_url":"https://paypal.me/ariii0129",
-	"website_url":"",
-	"news_url":"https://t.me/SD720G_repo",
-	"forum_url":"https://forum.xda-developers.com/m/cruecy.9792504/"
+  "error": false,
+  "filename": "PixelExperience_miatoll-13.0-0649-LEGACY-edition-signed_OTA.zip",
+  "datetime": 1744872540,
+  "size": 2118560328,
+  "url": "https://github.com/userariii/android-OTA/releases/download/miatoll-04-25/PixelExperience_miatoll-13.0-0649-LEGACY-edition-signed_OTA.zip",
+  "filehash": "dfe8f2e8d01ab062ebbc7c7cedf43ec6",
+  "version": "thirteen_plus",
+  "status": "Active",
+  "id": "48e23f7f24025e760a1150f21c110bb494b40de3ab636a584331dbd629d218f4",
+  "device_name": "Xiaomi SD720G Devices",
+  "device": "miatoll",
+  "xda_thread": "https://forum.xda-developers.com/m/cruecy.9792504/",
+  "maintainers": [
+    {
+      "main_maintainer": "true",
+      "github_username": "userariii",
+      "name": "Arindam Bhattacharjee"
+    }
+  ],
+  "donate_url": "https://paypal.me/ariii0129",
+  "website_url": "https://github.com/PixelExperience-LEGACY-edition",
+  "news_url": "https://t.me/SD720G_repo"
 }
