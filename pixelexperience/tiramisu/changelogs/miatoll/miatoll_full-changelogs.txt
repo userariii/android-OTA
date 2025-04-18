@@ -1,3 +1,7 @@
+Changelogs - 1117
+- Android Security Patch 2025-04
+- Misc fixes & optimization
+
 Changelog - 1239
 - Android Security patch 2025-03
 - Switched to Dolby Codec2
