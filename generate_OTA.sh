@@ -11,12 +11,11 @@ read -p "Enter release tag (e.g. Month-YY): " release_tag
 
 # Construct the expected OTA package path
 ota_details_dir="out/target/product/${codename}"
-ota_package_dir="OTA-Packages/${codename}/OTA"
-file_path=$(ls ${ota_package_dir}/PixelExperience_${codename}-*.zip 2>/dev/null)
+file_path=$(ls ${ota_details_dir}/PixelExperience_${codename}-*.zip 2>/dev/null)
 
 # Check if the OTA package exists
 if [[ -z "$file_path" ]]; then
-  echo "OTA package file not found in ${ota_package_dir}."
+  echo "OTA package file not found in ${ota_details_dir}."
   echo "Ensure the file follows the pattern: PixelExperience_${codename}-*.zip"
   exit 1
 else
@@ -27,7 +26,7 @@ fi
 filename=$(basename "$file_path")
 
 # Extract build ID (xxxx) from the filename
-build_id=$(echo "$filename" | grep -oP '(?<=PixelExperience_'${codename}'-13.0-)\d+(?=-LEGACY-edition-signed_OTA.zip)')
+build_id=$(echo "$filename" | grep -oP "(?<=PixelExperience_${codename}-13.0-)\d+")
 
 # Construct the download URL
 url="https://github.com/userariii/android-OTA/releases/download/${codename}-${release_tag}/$filename"
