@@ -1,0 +1,8 @@
+Changelogs - 1409
+
+- Android Security Patch 2025-06-01
+- Fixup! call recording issue
+- Fixup! charge disconnection issue (Kernel side changes)
+- Fixes the PlayIntegrity checks (MEETS_BASIC_INTEGRITY)
+- Improved the Performance
+- cleanup! Motorola CTS & Qcom FM2 app
